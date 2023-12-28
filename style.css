@@ -1,0 +1,43 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: relative;
+    background-color: lightpink;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.storyContent {
+    display: flex;
+    height: 20rem;
+    max-width: 80%;
+    font-size: 5rem;
+    color: purple;
+}
+
+.nextButton {
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1px solid rgb(55, 0, 220);
+    color: rgb(55, 0, 220);
+    margin-top: 3rem;
+}
+
+.nextButton:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.madeBy {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
