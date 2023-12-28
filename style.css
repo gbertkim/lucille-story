@@ -45,3 +45,10 @@ img {
     bottom: 1rem;
     right: 1rem;
 }
+
+@media (max-width: 768px) {
+    .storyContent {
+        height: 10rem;
+        font-size: 2rem;
+    }  
+}
